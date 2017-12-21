@@ -10,7 +10,7 @@ function translatePigLatin(str) {
 			}
 		else {
 			oink.push('ay'); //add ay to edited array
-			return oink.join(''); //convery array and get us back to STRINGLAND!
+			return oink.join(''); //convert array and get us back to STRINGLAND!
 		}
 	}
 }
