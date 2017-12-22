@@ -9,7 +9,7 @@ function translatePigLatin(str) {
 				oink.push(oink.shift()); //if a char is !vowel then = consonant //push to end of string and return it!
 			}
 		else {
-			oink.push('ay'); //add ay to edited array
+			oink.push('ay'); //add 'ay' to edited array
 			return oink.join(''); //convert array and get us back to STRINGLAND!
 		}
 	}
