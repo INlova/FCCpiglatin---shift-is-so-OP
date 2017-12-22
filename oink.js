@@ -1,7 +1,7 @@
 function translatePigLatin(str) {
 	var vowelpen = ['a', 'e', 'i', 'o', 'u']; //define quaifying vowel characters
 	var oink = str.split(''); // get us out of string and into an array
-	if (vowelpen.includes(str[0])) { //if the first letter = a vowel...
+	if (vowelpen.includes(str[0])) { //if the first letter = a vowel.
 		return str += 'way'; //tack on way and we're done - but what if the string doesn't start with a vowel?
 	} else { //then initiate for loop to scan for then next available one
 		for (var i = 0; i < str.length; i++) //for loop 
